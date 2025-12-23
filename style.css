@@ -1,0 +1,126 @@
+
+
+.start-flux
+{
+    display: flex;
+    height: auto;
+    width: auto;
+    background-color: rgb(48, 45, 45);
+    justify-content: space-around;
+    color: white;
+
+}
+
+.heading
+{
+margin-right: 300px;
+} 
+.side_header
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: beige;
+   
+}
+
+.mid1-flux{
+    display: flex;
+    background-color: rgb(48, 45, 45);
+    justify-content: space-around;
+    color: white;
+    
+    
+}
+button:hover{
+    background-color: rgb(36, 36, 239);
+    color: white;
+    border-radius: 5px;
+    /* padding: 10px 20px; */
+}
+
+img{
+    height: 200px;
+    width: 500px;
+    padding: 30px 20px;
+}
+
+.mid2-flux{
+    background-color: white;
+    
+}
+
+.sub-def{
+    text-align: center;
+}
+
+.sub-icon{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.img1{
+    flex: 1;
+    width: 50px;
+    height: auto;
+    text-align: center;
+
+}
+
+.img1 img{
+    max-width: 50%;
+    height: 50px;
+
+}
+
+.mid3-flux
+{
+    display: flex;
+    background-color: rgb(175, 153, 153);
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.poem{
+    display: flex;
+    margin-bottom: auto;
+    max-width: 400px;
+}
+
+.poet{
+    display: flex;
+    margin-left: 30%;
+    font-weight: bold;
+}
+
+.mid4-flux{
+    display: flex;
+    background-color: lightseagreen;
+    width: 600px;
+    height: auto;
+    border-radius: 10px;
+    padding: 20px ;
+    align-items: center;
+    margin: 50px auto;
+}
+
+button {
+margin-left: auto;
+}
+
+.end-flux
+{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 100px;
+    justify-content: center;
+}
